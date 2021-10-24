@@ -4,10 +4,11 @@ CXXWARNINGS=\
 		   -Wall \
 		   -Wextra \
 		   -Wpedantic \
-		   -Werror \
+#		   -Werror \
 		   -Wfatal-errors
 CXXINCLUDES=\
-			-I./include
+			-I./include \
+			-I./include/s24718
 
 CXXFLAGS=\
 		 -g \
